@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+xmltodict = "*"
+
+[dev-packages]
+twine = "*"
+flake8 = "*"
+coverage = "*"
+tox = "*"
+
+[requires]
+python_version = "3.7"
