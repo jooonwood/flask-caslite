@@ -1,5 +1,7 @@
 # Flask-CasLite
 
+[![Build Status](https://travis-ci.org/jooonwood/flask-caslite.svg?branch=master)](https://travis-ci.org/jooonwood/flask-caslite)
+
 cas client
 
 
