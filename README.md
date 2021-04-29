@@ -39,6 +39,7 @@ CasLite(app)
 
 @app.before_request
 def handle_cas_logout():
+    # handle cas ticket,destroy session in server
     print(handle_logout(request))
 
 
@@ -56,5 +57,14 @@ def cas():
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
+
+```
+
+## developement
+
+
+```python
+
+pipenv install --dev
 
 ```
